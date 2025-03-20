@@ -1,6 +1,17 @@
 import "./Home.css"
 import { RegistroProveedor } from "../RegistroProveedor/RegistroProveedor"
+
+import { useState,useEffect } from "react"
+
 export function Home(){
+
+
+
+    //creo una variable 
+const[datosProveedorNombre,setDatosProveedor]=useState([])
+const [carge,setCarga]=useEffect(false)
+
+useEffect(()=>{},[])
 
     return(
 

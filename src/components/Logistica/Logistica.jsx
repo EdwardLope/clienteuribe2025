@@ -1,6 +1,15 @@
 import "../Logistica/Logistica.css"
 import { RegistroLogistica } from "./RegistroLogistica"
 export function Logistica(){
+
+        //creo una variable 
+    const[datosLogisticaNombre,setDatosLogistica]=useState([])
+    const [carge,setCarga]=useEffect(false)
+    
+    useEffect(()=>{},[])
+
+
+
     return(
         <>
             <section className="banner-logistica">
